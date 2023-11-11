@@ -1,0 +1,13 @@
+.layout{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    border: 1px solid white;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10px;
+}
+.layoutChild{
+    width: 60vw;
+    /* border: 1px solid red; */
+}

@@ -1,0 +1,14 @@
+:root {
+  --background-rgb: rgb(12, 27, 51);
+  --color-rgb : white
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: var(--background-rgb); /* Default background color */
+  color : var(--color-rgb)
+}
