@@ -1,4 +1,17 @@
 .sidebar{
     width: 22vw;
-    /* border: 1px solid red; */
+    border-right: 2px solid white;
+}
+.sidecontent{
+    /* border: 1px solid white; */
+    width: 22vw;
+    height: 80vh;
+    margin-top: 1.5vw;
+}
+.logout{
+    display: flex;
+    line-height: baseline;
+    cursor: pointer;
+    border : 1px solid white;
+    
 }
