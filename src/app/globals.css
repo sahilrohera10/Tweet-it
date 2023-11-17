@@ -1,6 +1,6 @@
 :root {
   --background-rgb: rgb(12, 27, 51);
-  --color-rgb : white
+  --color-hex : #FDFDFD
 }
 
 
@@ -10,5 +10,5 @@
 
 body {
   background: var(--background-rgb); /* Default background color */
-  color : var(--color-rgb)
+  color : var(--color-hex)
 }

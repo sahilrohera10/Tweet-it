@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     width: 90vw;
-    border: 1px solid white;
-    height: 80vh;
+    /* border: 1px solid white; */
+    height: 93vh;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 1.5vw;
 }
 .layoutChild{
     width: 60vw;
