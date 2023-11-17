@@ -1,6 +1,7 @@
 import "./Sidebar.css";
 import Image from "next/image";
 import { BiLogOutCircle } from "react-icons/bi";
+import Link from "next/link";
 
 export default function Sidebar() {
   return (
@@ -17,8 +18,8 @@ export default function Sidebar() {
         <div class="h-full px-3 py-4 overflow-y-auto  dark:bg-gray-900">
           <ul class="space-y-4 font-medium">
             <li>
-              <a
-                href="#"
+              <Link
+                href="/appMain/analytics"
                 class="flex items-center p-2 text-lg text-gray-300  rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-900 group"
               >
                 <svg
@@ -31,12 +32,12 @@ export default function Sidebar() {
                   <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
                   <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
                 </svg>
-                <span class="ms-3">Analytics</span>
-              </a>
+                <span class="ms-3"> Analytics</span>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/appMain/home"
                 class="flex items-center p-2 text-lg text-gray-300  rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -52,11 +53,11 @@ export default function Sidebar() {
                 {/* <span class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
                   Pro
                 </span> */}
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/appMain/dm"
                 class="flex items-center p-2 text-lg  text-gray-300  rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -72,11 +73,11 @@ export default function Sidebar() {
                 <span class="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
                   3
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/appMain/followers"
                 class="flex items-center p-2 text-lg text-gray-300  rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -89,11 +90,11 @@ export default function Sidebar() {
                   <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
                 </svg>
                 <span class="flex-1 ms-3 whitespace-nowrap">Followers</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/appMain/bookmark"
                 class="flex items-center p-2 text-lg  text-gray-300  rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-700 group"
               >
                 {/* <svg
@@ -119,7 +120,7 @@ export default function Sidebar() {
                   <path d="M 37 48 C 36.824219 48 36.652344 47.953125 36.496094 47.863281 L 25 41.15625 L 13.503906 47.863281 C 13.195313 48.042969 12.8125 48.046875 12.503906 47.867188 C 12.191406 47.6875 12 47.359375 12 47 L 12 3 C 12 2.449219 12.449219 2 13 2 L 37 2 C 37.554688 2 38 2.449219 38 3 L 38 47 C 38 47.359375 37.808594 47.6875 37.496094 47.867188 C 37.34375 47.957031 37.171875 48 37 48 Z"></path>
                 </svg>
                 <span class="flex-1 ms-3 whitespace-nowrap">Bookmarks</span>
-              </a>
+              </Link>
             </li>
             {/* <li>
               <a
