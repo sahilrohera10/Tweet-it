@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./page.css";
 import Image from "next/image";
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
               className="mt-6"
               src="/images/logo.png"
               alt="logo"
-              width={600}
+              width={500}
               height={900}
             />
           </div>
@@ -38,7 +39,9 @@ export default function Home() {
             </div>
             <div className="lower">
               Already have an account?
-              <button>Sign in</button>
+              <Link href="/appMain/home">
+                <button>Sign in</button>
+              </Link>
             </div>
           </div>
         </div>
